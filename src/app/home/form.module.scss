@@ -1,0 +1,203 @@
+.formArea {
+  padding: 80px 0px;
+  @media screen and (max-width: 767px) {
+    padding: 40px 0px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 40px 0px;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    padding: 60px 0px;
+  }
+
+  .FormInner {
+    background: linear-gradient(180deg, #bad5ff 0%, #e8f1ff 100%);
+    padding: 80px;
+    text-align: center;
+    border-radius: 24px;
+    position: relative;
+
+    @media screen and (max-width: 767px) {
+      padding: 80px 30px 120px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      padding: 40px 60px 60px;
+    }
+
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      color: #000;
+      font-family: "Poppins", sans-serif;
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 40px;
+        padding: 0px 70px;
+      }
+      @media screen and (max-width: 767px) {
+        font-size: 32px;
+        padding: 0px 10px;
+      }
+    }
+
+    p {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      padding-bottom: 32px;
+      margin: 0px auto;
+      width: 60%;
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        width: 100%;
+        padding-bottom: 15px;
+      }
+    }
+
+    button {
+      width: 100%;
+      margin-top: 16px;
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 70%;
+      }
+    }
+  }
+
+  .midArea,
+  .midArea2 {
+    position: relative;
+  }
+  .midArea::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../public/img/dish2.svg) no-repeat;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 100px;
+    left: 100;
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      display: none;
+    }
+  }
+  .midArea::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../public/img/dish3.svg) no-repeat;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 1;
+
+    @media screen and (max-width: 767px) {
+      width: 100px;
+      height: 100px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      width: 89px;
+      height: 91px;
+    }
+  }
+  .midArea2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../public/img/dish1.svg) no-repeat;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    bottom: 100px;
+    left: 40;
+
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      bottom: 4px;
+      left: -5px;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 115px;
+      height: 123px;
+      bottom: 8px;
+      left: 0px;
+      z-index: 0;
+    }
+  }
+  .midArea2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../public/img/dish4.svg) no-repeat;
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    bottom: 118px;
+    right: 152px;
+    z-index: 1;
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      width: 115px;
+      height: 115px;
+      bottom: 20px;
+      right: 20px;
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      bottom: 0px;
+      right: 0px;
+    }
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  .FormInner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../public/img/LinesFuture.svg) no-repeat;
+    width: 405px;
+    height: 425px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media screen and (max-width: 767px) {
+      opacity: 0.1;
+      z-index: 0;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      z-index: 0;
+      width: 310px;
+      height: 337px;
+    }
+  }
+  .FormInner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../public/img/LinesFuture2.svg) no-repeat;
+    width: 553px;
+    height: 446px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      display: none;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 413px;
+      height: 407px;
+      bottom: 2;
+      right: 0;
+      opacity: 0.2;
+      z-index: 0;
+    }
+  }
+}
