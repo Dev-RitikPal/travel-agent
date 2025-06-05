@@ -1,0 +1,70 @@
+.BiteviseBuildArea {
+  padding: 0px 0px 80px;
+
+  .mealbooking img {
+    width: 100%;
+  }
+
+  .paddLeft {
+    padding-left: 60px;
+  }
+  .bookingPlateform {
+    button {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    h4 {
+      font-weight: 400;
+      font-size: 36px;
+      padding-bottom: 8px;
+      color: #667085;
+      font-family: "Poppins", sans-serif;
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 36px;
+      padding-bottom: 32px;
+      margin: 0px;
+      color: #0e1223;
+      font-family: "Poppins", sans-serif;
+    }
+
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 20px 0px;
+      }
+    }
+    .saveText {
+      padding-left: 32px;
+      h4 {
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #090909;
+        font-family: "Poppins", sans-serif;
+      }
+      p {
+        font-weight: 400;
+        font-size: 20px;
+        color: #667085;
+        line-height: 34px;
+        margin: 0px;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+
+    .BorderBox {
+      border: 10px solid #e7ecee;
+      border-radius: 40px;
+      font-weight: 500;
+      font-size: 18px;
+      display: inline-block;
+      padding: 12px 28px;
+      margin-bottom: 30px;
+      font-family: "Poppins", sans-serif;
+    }
+  }
+}

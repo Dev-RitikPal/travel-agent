@@ -1,0 +1,212 @@
+.sliderArea {
+  position: relative;
+  padding: 124px 0px 86px;
+  @media screen and (max-width: 767px) {
+    padding: 50px 0px 40px;
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    padding: 60px 0px 60px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    padding: 60px 0px 60px;
+  }
+  .MealdealText {
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      color: #0e1223;
+      padding-bottom: 24px;
+      font-family: "Poppins", sans-serif;
+      margin: 0px;
+
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        padding-bottom: 15px;
+      }
+
+      @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+        font-size: 40px;
+        padding-bottom: 10px;
+      }
+
+      @media screen and (max-width: 767px) {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 15px;
+      }
+    }
+
+    p {
+      font-weight: 400px;
+      font-size: 36px;
+      color: #0e1223;
+      font-family: "Poppins", sans-serif;
+      @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+        font-size: 30px;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        font-size: 34px;
+        line-height: normal;
+        padding-bottom: 10px;
+      }
+      @media screen and (max-width: 767px) {
+        font-size: 22px;
+        line-height: normal;
+        text-align: center;
+        padding: 0px 10px;
+      }
+    }
+  }
+
+  .sliderBottomText {
+    padding-top: 40px;
+    @media screen and (max-width: 767px) {
+      padding-top: 20px;
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1365px) {
+      padding-top: 0px;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 36px;
+      font-family: "Poppins", sans-serif;
+      padding-bottom: 24px;
+      @media only screen and (min-width: 1024px) and (max-width: 1365px) {
+        margin: 0px;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      h2 {
+        font-size: 24px;
+        margin: 0px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+    }
+
+    .voucherBox {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      @media screen and (max-width: 767px) {
+        display: inline;
+      }
+  
+      div {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 100px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #0e1223;
+        padding: 8px 27px;
+        margin-right: 24px;
+        font-family: "Poppins", sans-serif;
+        @media only screen and (min-width:768px) and (max-width: 991px)  {
+            font-size: 15px;
+            padding: 8px 20px;
+            margin-right: 10px;
+            width: 100%;
+          }
+
+        span {
+          margin-right: 10px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        @media screen and (max-width: 767px) {
+          margin-bottom: 10px;
+          margin-right: 0px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.sliderArea::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 88px;
+  display: block;
+  width: 221px;
+  height: 259px;
+  background: url(../../../public/img/served.svg);
+  @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    top: 30px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.MealItem {
+  position: relative;
+  z-index: 0;
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    img {
+      width: 97%;
+    }
+  }
+  .MealText {
+    position: absolute;
+    width: 310px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 40px;
+    color: #fff;
+    @media screen and (max-width: 767px) {
+      left: 0;
+      right: 0;
+      margin: 0px auto;
+      text-align: center;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 24px;
+      padding-bottom: 16px;
+      @media screen and (max-width: 767px) {
+        line-height: 28px;
+        margin: 0px;
+      }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    font-size: 22px;
+  }
+      
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      @media screen and (max-width: 767px) {
+        margin: 0px;
+      }
+    }
+
+    .ImgBox {
+      display: flex;
+      justify-content: center;
+      margin-top: 19px;
+      margin-bottom: 39px;
+      @media screen and (max-width: 767px) {
+        margin-bottom: 25px;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    img {
+      margin: 0px auto;
+    }
+  }
+}

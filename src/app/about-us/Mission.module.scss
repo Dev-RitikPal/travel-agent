@@ -1,0 +1,31 @@
+.missionArea{
+    padding:120px 0px;
+    background: url(../../../public/img/Mission.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+
+    h2{
+        font-weight: 600;
+        font-size: 48px;
+        font-family: "Poppins", sans-serif;
+        margin: 0px;
+        padding-bottom:50px;
+    }
+
+    .MissionText{
+        h3{
+            font-weight: 600;
+            font-size: 36px;
+            font-family: "Poppins", sans-serif;
+            margin: 0px;
+            padding-bottom: 15px;
+        }
+        p{
+            font-size: 18px;
+            font-weight:400;
+            margin: 0px;
+            padding-right: 125px;
+            line-height: 34px;
+        }
+    }
+}

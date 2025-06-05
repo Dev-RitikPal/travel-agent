@@ -1,0 +1,66 @@
+.ContactBannnerArea {
+  background: url(../../../public/img/Process.jpg) no-repeat;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 675px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 16px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 0px;
+    color: #0e1223;
+    width: 57%;
+  }
+
+  .ContactInner {
+    backdrop-filter: blur(40px);
+    padding: 48px 56px;
+    border-radius: 26px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff;
+
+    .borderBox {
+      border: 10px solid #e7ecee;
+      border-radius: 40px;
+      margin-bottom: 30px;
+      padding: 12px 28px;
+      font-family: Poppins, sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      display: inline-block;
+      background: #fff;
+    }
+  }
+}
+
+.ContactBannnerArea::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(../../../public/img/Vegitables.svg) no-repeat;
+  width: 771px;
+  height: 624px;
+  top: -90px;
+  right: 0;
+}

@@ -1,0 +1,179 @@
+.HeroBannerArea {
+  background: url(../../../public/img/Hero.jpg) no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 800px;
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+
+  @media screen and (max-width: 767px) {
+    margin-top:66px;
+    padding: 40px 0px;
+    height: auto;
+    background-position: center;
+  }
+
+  @media only screen and (max-width:1024px) and (min-width: 992px)  {
+    height: calc(60vh - 80px);
+
+  }
+  @media only screen and (min-width:768px) and (max-width: 991px)  {
+    margin-top:66px;
+    background-position: center center;
+    height: 65vh;
+  }
+
+}
+
+.bannerContent {
+  display: block;
+  text-align: center;
+
+  h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 36px;
+    padding-bottom: 18px;
+   
+    @media only screen and (max-width:1024px) and (min-width: 992px)  {
+      margin: 0px;
+    }
+    @media screen and (max-width: 767px) {
+      margin: 0px;
+      font-size: 30px;
+      padding-bottom: 10px;
+    }
+  }
+  h2 {
+    color: #0063c1;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 78px;
+    padding-bottom: 18px;
+
+    @media screen and (max-width: 767px) {
+      font-size:40px;
+      line-height: normal;
+      margin: 0px;
+      padding-bottom:10px;
+   
+    }
+    @media only screen and (min-width:768px) and (max-width: 991px)  {
+      font-size: 55px;
+      line-height: 68px;
+      margin: 0px;
+    }
+
+@media only screen and (max-width:1024px) and (min-width: 992px)  {
+  font-size: 55px;
+  line-height: 68px;
+  margin: 0px;
+}
+
+  }
+  p {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    width: 34%;
+    margin: 0px auto;
+    @media only screen and (min-width:768px) and (max-width: 991px)  {
+      width: 60%;
+    }
+    @media only screen and (max-width:1024px) and (min-width: 992px)  {
+      width: 60%;
+    }
+    @media screen and (max-width: 767px) {
+      width: 90%;
+      line-height: 26px;
+      font-size: 18px;
+    }
+  }
+  .headbtn {
+    margin: 40px 0px;
+    @media only screen and (max-width:1024px) and (min-width: 992px)  {
+      margin: 20px 0px;
+    }
+    @media screen and (max-width: 767px) {
+      margin: 15px 0px 0px;
+    }
+  }
+  .headbtn a {
+    padding: 0px 47px;
+    @media screen and (max-width: 767px) {
+      padding: 0px 30px;
+      width: 80% !important;
+      margin-bottom: 10px;
+      margin-left: 0px !important;
+    }
+  }
+
+  .headbtn a {
+    padding: 5px 20px;
+    height: 52px;
+    border-radius: 30px;
+    border: 1px solid #0063c1;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-left: 16px;
+    transition: all 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 41px;
+  }
+  .headbtn a.banerBtn2 {
+    background: #0063c1;
+    color: #fff;
+    width: 256px;
+    border: 1px solid #0063c1;
+  }
+  .headbtn a.banerBtn2:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #fff;
+  }
+  .headbtn a.banerBtn{
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #fff;
+    width: 237px;
+  }
+  .headbtn a.banerBtn:hover{
+    background: #0063c1;
+    color: #fff;
+    border: 1px solid #0063c1;
+  }
+
+}
+
+.RatingBox {
+  p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 5px;
+    }
+  }
+}
+
+// Hero banner css close
+

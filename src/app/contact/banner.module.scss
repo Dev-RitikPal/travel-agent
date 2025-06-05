@@ -1,0 +1,119 @@
+.ContactBannnerArea {
+  background: url(../../../public/img/Contactbanner.png) bottom no-repeat;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 727px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 16px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 0px;
+  }
+
+  .ContactInner {
+    backdrop-filter: blur(35px);
+    padding: 48px 56px;
+    border-radius: 26px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ContactBannnerArea {
+    height: 500px;
+
+    .ContactInner {
+      margin-top: 20px;
+      padding: 40px 30px;
+      h3 {
+        margin: 0px;
+        font-size: 28px;
+      }
+      h2 {
+        margin: 0px;
+        font-size: 25px;
+        br {
+          display: none;
+        }
+      }
+      p {
+        line-height: 27px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .ContactBannnerArea {
+  .ContactInner {
+    h2{
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .ContactBannnerArea {
+    height: 540px;
+
+    .ContactInner {
+      h3 {
+        margin: 0px;
+      }
+      h2 {
+        margin: 0px;
+        br {
+          display: none;
+        }
+      }
+      p {
+        line-height: 32px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  .ContactBannnerArea {
+    height: 600px;
+
+    h2 {
+      font-size: 40px;
+      margin: 0px;
+    }
+    p {
+      line-height: 30px;
+    }
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .ContactBannnerArea {
+    height: 600px;
+
+    h2 {
+      font-size: 42px;
+      margin: 0px;
+    }
+  }
+}

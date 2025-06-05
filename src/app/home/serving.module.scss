@@ -1,0 +1,108 @@
+.CountriesServingArea{
+  padding: 80px 0px;
+  @media only screen and (min-width:768px) and (max-width: 1199px) {
+    padding: 80px 0px 40px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 50px 0px 50px;
+  }
+
+    .CountryBox{
+        background: linear-gradient(180deg, #BAD5FF 0%, #E8F1FF 100%);
+        padding:63px 40px;
+        border-radius: 24px;
+        color: #000;
+        position: relative;
+        z-index: 0;
+        @media screen and (max-width: 767px) {
+             text-align: center;
+             padding:63px 35px 30px;
+        }
+
+        h2{
+            font-weight: 600;
+            font-size: 48px;
+            font-family: "Poppins", sans-serif;
+            @media only screen and (min-width:768px) and (max-width: 1199px) {
+                font-size: 30px;
+            }
+            @media screen and (max-width: 767px) {
+              padding-top: 25px;
+              font-size: 30px;
+           }
+        }
+        p{
+            font-weight: 400;
+            margin: 0px;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .ImgBox{
+            position: absolute;
+            display: inline-block;
+            top: -53px;
+            right: 0;
+            @media screen and (max-width: 767px) {
+                top: -29px;
+            }
+            img{
+
+        @media screen and (max-width: 767px) {
+            width: 110px;
+            height: auto;
+         }
+            }
+        }
+    }
+    .starBox{
+        position: relative;
+        
+    }
+    .starBox::after{
+        content: '';
+        position: absolute;
+        background: url(../../../public/img/Star.svg) no-repeat;
+        width: 196px;
+        height:194px;
+        right:0;
+        left: 0;
+        margin: 0px auto;
+        top: -37%;
+        left: 0;
+        right: 0;
+        z-index: -1;
+
+        @media screen and (max-width: 767px) {
+            top: -33%;
+          }
+    }
+    .CountryBox{
+        p{
+            @media only screen and (min-width:768px) and (max-width: 1199px) {
+                font-size: 14px;
+                width: 70%;
+            }
+        }
+    }
+    .CountryBox::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url(../../../public/img/countries1.svg) no-repeat;
+        width: 230px;
+        height: 127px;
+    }
+    .CountryBox::before{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: url(../../../public/img/countries2.svg) no-repeat;
+        width: 533px;
+        height: 216px;
+        @media screen and (max-width: 767px) {
+        display: none;
+        }
+    }
+}
